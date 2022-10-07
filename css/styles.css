@@ -2,12 +2,22 @@
     --title-color: #212121;
     --text-color: #757575;
     --hover-link-color: #2196F3;
+    --button-text-color: #ffffff;
+    --logo-color-blue: #2196F3;
+    --logo-color-black: #000000;
+    --logo-color-white: #ffffff;
+    --hero-title-color: #ffffff;
     --background-color: #ffffff;
     --background-color-footer: #2F303A;
+    --background-color-hero: #2F303A;
+    --background-color-button: #2196F3;
+    --team-card-color: #ffffff;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --section-block-grey: #F5F4FA;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--background-color);
     font-family: 'Roboto', 'Railway';
     color: var(--title-color);
     font-weight: 400;
@@ -19,12 +29,12 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--logo-color-black);
     text-decoration: none;
 }
 
 .web-logo {
-    color: #2196F3;
+    color: var(--logo-color-blue);
 }
 
 .site-nav {
@@ -64,7 +74,7 @@ body {
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-color-hero);
 }
 
 .hero-title {
@@ -74,10 +84,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--background-color);
+    color: var(--hero-title-color);
 }
 
 .request-our-service {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -85,8 +96,8 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    background-color: #2196F3;
-    color: var(--background-color);
+    background-color: var(--background-color-button);
+    color: var(--button-text-color);
     cursor: pointer;
 }
 
@@ -124,7 +135,7 @@ body {
 }
 
 .our-team {
-    background-color: #F5F4FA;
+    background-color: var(--section-block-grey);
 }
 
 .team-list {
@@ -132,7 +143,7 @@ body {
 }
 
 .team-card {
-    background: #FFFFFF;
+    background: var(--team-card-color);
 }
 
 .employee-name {
@@ -149,7 +160,7 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .filters-list {
@@ -161,6 +172,7 @@ body {
 }
 
 .button-filters {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -172,8 +184,9 @@ body {
 
 .button-filters:hover,
 .button-filters:focus {
-    color: var(--background-color);
-    background-color: #2196F3;
+    font-family: inherit;
+    color: var(--button-text-color);
+    background-color: var(--background-color-button);
 }
 
 .product-name {
@@ -205,7 +218,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--background-color);
+    color: var(--logo-color-white);
     text-decoration: none;
 }
 
@@ -217,7 +230,6 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
-    /* or 171% */
     letter-spacing: 0.03em;
     color: var(--background-color);
     text-decoration: none;
@@ -233,7 +245,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-contacts-color);
     text-decoration: none;
 }
 
