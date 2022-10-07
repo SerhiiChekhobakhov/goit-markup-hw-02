@@ -1,0 +1,67 @@
+body {
+    background-color: #ffffff;
+    font-family: "Roboto";
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    font-family: "Railway";
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+/* identical to box height */
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.site-nav li a:hover,
+.site-nav li a:focus {
+    color: #2196F3;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.contacts-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #2196F3;
+}
+
+
+
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
