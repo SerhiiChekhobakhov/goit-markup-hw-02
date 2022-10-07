@@ -8,15 +8,19 @@ ul {
 }
 
 .logo {
-    font-family: "Railway";
-    text-decoration: none;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-/* identical to box height */
+    /* identical to box height */
     letter-spacing: 0.03em;
     color: #000000;
+    text-decoration: none;
+}
+
+.web-logo {
+    color: #2196F3;
 }
 
 .site-nav li a:hover,
@@ -49,9 +53,133 @@ ul {
     color: #2196F3;
 }
 
+.hero {
+    background-color: #2F303A;
+}
 
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 
+.request-our-service {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    color: #ffffff;
+}
 
+.peculiarities-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.peculiarities-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team {
+    background-color: #F5F4FA;
+}
+
+.team-card {
+    background: #FFFFFF;
+}
+
+.employee-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.employee-position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
 
 .visually-hidden {
     position: absolute;
