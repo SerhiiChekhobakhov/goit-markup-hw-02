@@ -7,6 +7,10 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -139,6 +143,43 @@ ul {
     line-height: 19px;
     /* identical to box height */
     text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.button-filters {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.button-filters:hover,
+.button-filters:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.product-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.product-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: #757575;
 }
