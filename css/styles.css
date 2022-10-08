@@ -234,11 +234,6 @@ body {
   text-decoration: none;
 }
 
-.footer-adress:hover,
-.footer-adress:focus {
-  color: var(--hover-link-color);
-}
-
 .footer-contacts {
   font-style: normal;
   line-height: 1.7;
