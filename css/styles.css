@@ -20,7 +20,7 @@ body {
   background-color: var(--background-color);
   font-family: "Roboto", "Railway";
   color: var(--title-color);
-  font-weight: 400;
+  font-size: 14px;
 }
 
 .logo {
@@ -44,7 +44,6 @@ body {
 .nav-link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -71,7 +70,6 @@ body {
 .contacts-link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -115,12 +113,9 @@ body {
 }
 
 .peculiarities-title {
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-color);
 }
 
 .peculiarities-text {
@@ -131,12 +126,10 @@ body {
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
 }
 
 .activities-list {
@@ -161,7 +154,6 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
 }
 
 .employee-position {
@@ -199,7 +191,6 @@ body {
 }
 
 .product-name {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -237,7 +228,6 @@ body {
 
 .footer-adress {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--background-color);
@@ -251,7 +241,6 @@ body {
 
 .footer-contacts {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--footer-contacts-color);
