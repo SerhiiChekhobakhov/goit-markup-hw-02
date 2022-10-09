@@ -113,6 +113,7 @@ body {
 }
 
 .peculiarities-title {
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -233,6 +234,8 @@ body {
   color: var(--background-color);
   text-decoration: none;
 }
+
+
 
 .footer-contacts {
   font-style: normal;
